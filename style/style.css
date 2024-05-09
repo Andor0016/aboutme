@@ -1,0 +1,15 @@
+*{
+    background-color: #0B0C10;
+    color: #C5C6C7;
+}
+
+.navigationbar{
+    display: flex;
+    flex-direction: column;
+}
+
+.navigationbar a img{
+    width: 4rem;
+    height: 4rem;
+    margin: 1rem 0;
+}
