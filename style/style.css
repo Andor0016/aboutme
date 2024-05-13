@@ -3,13 +3,38 @@
     color: #C5C6C7;
 }
 
+.flexbox{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-and-picture{
+    display: flex;
+    flex-direction: row;    
+}
+
 .navigationbar{
     display: flex;
     flex-direction: column;
+    width: 3.5rem;
+    margin: 0.3rem;
 }
 
 .navigationbar a img{
     width: 3rem;
     height: 3rem;
-    margin: 0.3rem 0;
+    margin: 0.3rem 0.1rem;
+}
+
+#me-photo{
+    height: 59rem;
+    width: auto;
+}
+
+.infobox{
+    margin: 3rem;
+}
+
+.infobox h3{
+    color: #66FCF1;
 }
