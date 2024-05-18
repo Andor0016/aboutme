@@ -12,7 +12,7 @@ main{
 
 .flexbox{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .navbar-and-picture{
