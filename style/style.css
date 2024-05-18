@@ -3,6 +3,13 @@
     color: #C5C6C7;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
 .flexbox{
     display: flex;
     flex-direction: row;
@@ -11,13 +18,14 @@
 .navbar-and-picture{
     display: flex;
     flex-direction: row;    
+    width: 46rem;
 }
 
 .navigationbar{
     display: flex;
     flex-direction: column;
     width: 3.5rem;
-    margin: 0.3rem;
+    margin: 0.5rem;
 }
 
 .navigationbar a img{
@@ -32,9 +40,10 @@
 }
 
 .infobox{
-    margin: 3rem;
+    margin: 0.5rem 3rem;
+    width: 46rem;
 }
 
-.infobox h3{
+.infobox h2, .infobox h3{
     color: #66FCF1;
 }
