@@ -15,12 +15,47 @@ main{
     flex-wrap: wrap;
 }
 
-.navbar-and-picture{
-    display: flex;
-    flex-direction: row;    
-    width: 46rem;
-    margin: 2rem;
+/*Mobil nézet*/
+@media screen and (max-width: 768px){
+    .navbar-and-picture{
+        display: flex;
+        flex-direction: row;    
+        width: 35rem;
+        margin:  2rem;
+    }
+
+    #me-photo{
+        height: 45rem;
+        width: auto;
+    }
+
+    .infobox{
+        margin: 2rem; 
+        width: 35rem;
+    }
 }
+
+/*Számítógép nézet*/
+@media screen and (min-width: 769px){
+    .navbar-and-picture{
+        display: flex;
+        flex-direction: row;    
+        width: 46rem;
+        margin:  2rem;
+    }
+
+    #me-photo{
+        height: 59rem;
+        width: auto;
+    }
+
+    .infobox{
+        margin: 2rem; 
+        width: 46rem;
+    }
+}
+
+
 
 .navigationbar{
     display: flex;
@@ -33,16 +68,6 @@ main{
     width: 3rem;
     height: 3rem;
     margin: 0.3rem 0.1rem;
-}
-
-#me-photo{
-    height: 59rem;
-    width: auto;
-}
-
-.infobox{
-    margin: 2rem; 
-    width: 46rem;
 }
 
 .infobox h1{
