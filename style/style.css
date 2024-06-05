@@ -28,17 +28,48 @@ main{
     .navbar-and-picture{
         display: flex;
         flex-direction: row;    
-        width: 35rem;
+        width: 20rem;
     }
 
     #me-photo{
-        height: 45rem;
+        height: 28rem;
         width: auto;
+    }
+
+    .navigationbar a img{
+        width: 2rem;
+        height: 2rem;
+        margin: 0.15rem 0.1rem;
     }
 
     .infobox{
         margin: 2rem; 
-        width: 35rem;
+        width: 20rem;
+    }
+
+    .infobox h1{
+        margin: 0.1rem;
+        padding: 0;
+        font-size: 350%;
+    }
+    .infobox h2, .infobox h3{
+        font-size: 110%;
+    }
+
+    .infobox p{
+        font-size: 90%;
+    }
+
+    .theme-icon{
+        width: 4rem;
+        height: 4rem;
+        margin: 0.3rem 0.1rem;
+    }
+    
+    .sub-icon{
+        width: 6rem;
+        height: 6rem;
+        margin: 0.1rem;
     }
 }
 
@@ -56,9 +87,33 @@ main{
         width: auto;
     }
 
+    .navigationbar a img{
+        width: 3rem;
+        height: 3rem;
+        margin: 0.3rem 0.1rem;
+    }
+
     .infobox{
         margin: 0 2rem; 
         width: 46rem;
+    }
+
+    .infobox h1{
+        margin: 0.5rem;
+        padding: 0;
+        font-size: 500%;
+    }
+
+    .theme-icon{
+        width: 6rem;
+        height: 6rem;
+        margin: 0.3rem 0.1rem;
+    }
+    
+    .sub-icon{
+        width: 10rem;
+        height: 10rem;
+        margin: 0.1rem;
     }
 }
 
@@ -71,32 +126,8 @@ main{
     margin: 0.5rem;
 }
 
-.navigationbar a img{
-    width: 3rem;
-    height: 3rem;
-    margin: 0.3rem 0.1rem;
-}
-
-.infobox h1{
-    margin: 0.5rem;
-    padding: 0;
-    font-size: 500%;
-}
-
 .infobox h2, .infobox h3{
     color: #66FCF1;
-}
-
-.theme-icon{
-    width: 6rem;
-    height: 6rem;
-    margin: 0.3rem 0.1rem;
-}
-
-.sub-icon{
-    width: 10rem;
-    height: 10rem;
-    margin: 0.1rem;
 }
 
 td, th{
